@@ -1,0 +1,21 @@
+{
+  "name": "stream1_project",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntate6630/stream1_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntate6630/stream1_project/issues"
+  },
+  "homepage": "https://github.com/ntate6630/stream1_project#readme",
+  "description": "This is a cooking website to demonstrate usage of different learnt on the course.",
+  "dependencies": {},
+  "devDependencies": {}
+}
