@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app='SearchApp'>
+<head>
+    <title>Stream One Project</title>
+    <base href="/"> <!-- needed for Angular HTML5 mode -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <div class="banner">
+                <img src="/img/banner.jpg"alt="">
+                <h1>Cooking Guide</h1>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-left col-sm-6">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/recipes">Recipes</a></li>
+                    <li><a href="/howTo">How To</a></li>
+                    <li><a href="/video">Video</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-left col-sm-6">
+                    <li><a href="/accounts/logout">Logout</a></li>
+                    <li><a href="/accounts/login">Login</a></li>
+                    <li><a href="/accounts/register">Register</a></li>
+                </ul>
+                <div ng-binding="recipe" class="searchBar col-sm-12">
+                    <input type="text" ng-model="search.name.$" placeholder="Search">
+                </div>
+            </div>
+        </div>
+        <div ng-view>
+
+        </div>
+
+        <div id="footer">
+            <ul class="nav navbar-nav navbar-left col-sm-12">
+                <li><a href="/accounts/logout">Logout</a></li>
+                <li><a href="/accounts/login">Login</a></li>
+                <li><a href="/accounts/register">Register</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/recipes">Recipes</a></li>
+                <li><a href="/howTo">How To</a></li>
+                <li><a href="/video">Video</a></li>
+                <li><a href="/">Back to top of page</a></li>
+            </ul>
+
+            <p>Stream 1 project</p>
+            <p>Cooking Guide designed by Nicholas Tate</p>
+            <p>This website for education and demonstration purposes only</p>
+            <p>Copyright © Nicholas Tate. 2017.
+        </div>
+    </div>
+    <script src='js/app.js'></script>
+    <script src='js/controller.js'></script>
+    <script src='js/service.js'></script>
+    <script src='js/directive.js'></script>
+</body>
+</html>
