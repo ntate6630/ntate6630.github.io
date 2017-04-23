@@ -1,0 +1,18 @@
+<div ng-controller="HowToController" class="container instructions">
+
+		<h1>Recipes</h1>
+
+    <div>
+        <table class="table">
+            <tbody data-ng-repeat="recipe in cookingInstructions | filter:search | orderBy:'dish'">
+                <tr>
+                    <td><h2> {{ recipe.name.type }} </h2></td>
+                    <td><h2> {{ recipe.name.dish }} </h2></td>
+                    <td><img ng-src="/img/{{recipe.image}}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

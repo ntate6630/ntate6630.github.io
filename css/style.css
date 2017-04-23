@@ -1,0 +1,284 @@
+body {
+    left:250px;
+    right:250px;
+}
+
+.banner img{
+    position:relative;
+    margin:0 auto;
+    height:150px;
+    width:100%;
+}
+
+.banner h1 {
+    position:relative;
+    margin-top:-130px;
+    font-family: 'Pinyon Script', cursive;
+    font-size:100px;
+    color:white;
+    text-shadow:2px 2px #000000;
+    text-align:center;
+}
+
+.navbar-nav{
+    background-color:#D0F040;
+    margin: 0 auto;
+}
+
+.searchBar {
+    padding-left:300px;
+    background-color:#D0F040;
+    height:30px;
+}
+
+.table img {
+	width:170px;
+	height:170px;
+}
+
+.table {
+    width:auto;
+    border:0;
+}
+
+.videos iframe {
+	display:flex;
+    flex-direction:column;
+	top:150px;
+	margin-left:250px;
+	width:640px;
+	height:480px;
+	margin-bottom:100px;
+}
+
+#footer{
+    margin-top:250px;
+    background-color:#D0F040;
+}
+
+@media screen and (max-width: 993px) {
+    body {
+        left:0px;
+    }
+
+   .banner img {
+        position: relative;
+        margin:0 auto;
+        height: 80px;
+        width:100%;
+    }
+
+   .banner h1 {
+        position:relative;
+        margin:0 auto;
+        margin-top:-70px;
+        padding-bottom:10px;
+        font-family: 'Pinyon Script', cursive;
+        font-size:35px;
+        color:white;
+        text-shadow:2px 2px #000000;
+        text-align:center;
+    }
+
+    .searchBar {
+        margin-top:0px;
+        padding-left:50px;
+        margin-left:0px
+    }
+
+    h1{
+        font-size:14px;
+    }
+
+    Li {
+        font-size:12px;
+    }
+
+    .table img {
+	width:100px;
+	height:100px;
+    }
+
+    .table {
+        margin-left:0px;
+        width:auto;
+        border:0;
+    }
+
+    td h2 {
+        font-size:12px;
+    }
+
+    td h3 {
+        font-size:14px;
+    }
+
+    tr td {
+        font-size:10px;
+    }
+
+    #footer p{
+        font-size:10px;
+    }
+
+    .videos iframe {
+        display:flex;
+        flex-direction:column;
+        top:150px;
+        width:auto;
+        height:240px;
+        margin-bottom:50px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        left:0px;
+    }
+
+    .banner img {
+        position: relative;
+        margin:0 auto;
+        height: 80px;
+        width:100%;
+    }
+
+   .banner h1 {
+        position:relative;
+        margin:0 auto;
+        margin-top:-70px;
+        padding-bottom:10px;
+        font-family: 'Pinyon Script', cursive;
+        font-size:35px;
+        color:white;
+        text-shadow:2px 2px #000000;
+        text-align:center;
+    }
+
+    .searchBar {
+        margin-top:0px;
+        padding-left:50px;
+        margin-left:0px;
+    }
+
+    h1{
+        font-size:14px;
+    }
+
+    Li {
+        font-size:12px;
+    }
+
+    .table img {
+	width:100px;
+	height:100px;
+    }
+
+    .table {
+        margin-left:0px;
+        width:auto;
+        border:0;
+    }
+
+    td h2 {
+        font-size:12px;
+    }
+
+    td h3 {
+        font-size:14px;
+    }
+
+    tr td {
+        font-size:10px;
+    }
+
+    #footer p{
+        font-size:10px;
+    }
+
+    .videos iframe {
+        display:flex;
+        flex-direction:column;
+        top:150px;
+        width:auto;
+        height:240px;
+        margin-left:-30px;
+        margin-bottom:50px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        left:0px;
+    }
+
+    .banner img {
+        position: relative;
+        margin:0 auto;
+        height: 80px;
+        width:100%;
+    }
+
+   .banner h1 {
+        position:relative;
+        margin:0 auto;
+        margin-top:-70px;
+        padding-bottom:10px;
+        font-family: 'Pinyon Script', cursive;
+        font-size:35px;
+        color:white;
+        text-shadow:2px 2px #000000;
+        text-align:center;
+    }
+
+    .searchBar {
+        margin-top:0px;
+        padding-left:50px;
+        margin-left:0px;
+    }
+
+    h1{
+        font-size:14px;
+    }
+
+    Li {
+        font-size:12px;
+    }
+
+    .table img {
+	width:80px;
+	height:80px;
+    }
+
+    .table {
+        margin-left:0px;
+        width:auto;
+        border:0;
+    }
+
+    td h2 {
+        font-size:12px;
+    }
+
+    td h3 {
+        font-size:14px;
+    }
+
+    tr td {
+        font-size:10px;
+    }
+
+    #footer p{
+        font-size:10px;
+    }
+
+    .videos iframe {
+        display:flex;
+        flex-direction:column;
+        top:150px;
+        margin-left:-30px;
+        width:auto;
+        height:240px;
+        margin-bottom:50px;
+	}
+}
